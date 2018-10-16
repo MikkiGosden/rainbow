@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+	<title><% TITLE %></title> 
+	<% CSS %> 
+	<% JAVASCRIPT %>
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ 
+    </head> 
+
+    <body>
+<div class="flex">
+
+		<a href="index.php" id="banner"><img src="https://via.placeholder.com/1200x300" style="width:100%;"/></a>
+	
+	<div id="navi">
+		    <% NAVIGATION %>
+	</div>
+	<div id="header">
+	    <% BOARD HEADER %>
+	</div>
+</div>
+
+<div class="flex-grid">
+<div class="row">
+<div class="col-1"></div>
+
+<div class="col-2">
+	<div id="sidebar">
+		<% sidebar %>
+	</div>
+</div>
+
+<div class="col-3">
+	<div id="boardwrapper"> 
+	    	<% BOARD %>
+	    	<script>$('#logo a img[src="style_images/1/spacer.gif"]').replaceWith('<!-- |board_name| -->');</script>
+	</div>
+</div>
+
+<div class="col-1"></div>
+</div>
+</div>
+
+<div class="flex">
+	<div class="footer">
+		<div id="skin_selector">
+	    	    <% SKIN_SELECTOR %>
+	    	</div>
+	    <% COPYRIGHT %> 
+<div class="cred">skin by Mikki <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a></div>
+	</div>
+</div>
+
+    </body> 
+</html>
+
