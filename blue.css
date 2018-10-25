@@ -64,6 +64,10 @@ display:none;
 display:none;
 }
 
+#userlinks{
+display:none;
+}
+
 #navstrip, #navstrip a, #userlinks, #userlinks a{
 color:#000;
 }
